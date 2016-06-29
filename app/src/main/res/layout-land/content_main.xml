@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="14dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="itch.responsivedesign.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <EditText
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un saludo"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taller de Computo Movíl"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
